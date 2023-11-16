@@ -91,6 +91,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, SCNSceneRen
         startIdleTimer();
     }
     
+    // #selector(self.panGestureRecognized(gesture:))
     @objc func panGestureRecognized(gesture: UIPanGestureRecognizer) {
         if gesture.numberOfTouches == 1 {
             stopFingerAnimationSequence()
@@ -117,6 +118,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, SCNSceneRen
         }
     }
     
+    // #selector(self.pinchGestureRecognized(gesture:))
     @objc func pinchGestureRecognized(gesture: UIPinchGestureRecognizer) {
         if gesture.numberOfTouches == 2 {
             stopFingerAnimationSequence()
@@ -135,6 +137,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, SCNSceneRen
         }
     }
     
+    // #selector(self.doubleTapGestureRecognized(gesture:))
     @objc func doubleTapGestureRecognized(gesture: UITapGestureRecognizer) {
         cameraOrbitStart.eulerAngles.y = Float(-2 * Double.pi) * originalWidthAngle
         cameraOrbitStart.eulerAngles.x = Float(-Double.pi) * originalHeightAngle
@@ -192,6 +195,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, SCNSceneRen
         cameraOrbitStart.removeAction(forKey: panSequenceKey)
     }
     
+    // Inherited from SCNSceneRendererDelegate.renderer(_:didApplyAnimationsAtTime:).
     func renderer(_ renderer: SCNSceneRenderer, didApplyAnimationsAtTime time: TimeInterval) {
         updatePositions()
     }
