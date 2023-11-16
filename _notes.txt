@@ -1,4 +1,4 @@
-_notes.txt
+_repos/iOS3DModelViewer/_notes.txt
 
 # --
 2023-11-16 17:11:42
@@ -9,3 +9,12 @@ _notes.txt
 Info.plist configuration "Default Configuration" for UIWindowSceneSessionRoleApplication contained UISceneDelegateClassName key, but could not load class with name "_DModelViewer.SceneDelegate".
 Info.plist configuration "(no name)" for UIWindowSceneSessionRoleApplication contained UISceneDelegateClassName key, but could not load class with name "_DModelViewer.SceneDelegate".
 Info.plist configuration "(no name)" for UIWindowSceneSessionRoleApplication contained UISceneDelegateClassName key, but could not load class with name "_DModelViewer.SceneDelegate".
+
+>> Try Info.plist from FaceMesh
+++ Get rid Warnings above
+
+>> Plan: Rebuild Using FaceMesh
+
+
+
+
