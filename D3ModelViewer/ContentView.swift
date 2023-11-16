@@ -30,10 +30,10 @@ struct BridgeView: UIViewControllerRepresentable {
         
         print("BridgeView viewCtl", viewCtl)
 
-        viewCtl.reportChange = {
-            // print("reportChange")
-            analysis = viewCtl.analysis
-        }
+//        viewCtl.reportChange = {
+//            // print("reportChange")
+//            analysis = viewCtl.analysis
+//        }
         return viewCtl
     }
     

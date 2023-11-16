@@ -13,6 +13,8 @@
 		8B7D4E412221CA4F00E0E448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7D4E3F2221CA4F00E0E448 /* LaunchScreen.storyboard */; };
 		ABB7C42029AF54F500711661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7C41E29AF54F500711661 /* ContentView.swift */; };
 		ABB7C42129AF54F500711661 /* D3ModelViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7C41F29AF54F500711661 /* D3ModelViewerApp.swift */; };
+		ABCA88562B06DFD100F09268 /* air_jordan_1_retro_high_tie_dye.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ABCA88552B06DFD100F09268 /* air_jordan_1_retro_high_tie_dye.usdz */; };
+		ABCA88582B06DFF700F09268 /* _notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = ABCA88572B06DFF700F09268 /* _notes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		ABB7C41E29AF54F500711661 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABB7C41F29AF54F500711661 /* D3ModelViewerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D3ModelViewerApp.swift; sourceTree = "<group>"; };
 		ABB7C42229AF606F00711661 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ABCA88552B06DFD100F09268 /* air_jordan_1_retro_high_tie_dye.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = air_jordan_1_retro_high_tie_dye.usdz; sourceTree = "<group>"; };
+		ABCA88572B06DFF700F09268 /* _notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB7C42229AF606F00711661 /* README.md */,
+				ABCA88572B06DFF700F09268 /* _notes.txt */,
 				8B7D4E332221CA4800E0E448 /* D3ModelViewer */,
 				8B7D4E322221CA4800E0E448 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				8B7D4E382221CA4800E0E448 /* ViewController.swift */,
 				8B7D4E3A2221CA4800E0E448 /* Main.storyboard */,
 				8B7D4E3D2221CA4F00E0E448 /* Assets.xcassets */,
+				ABCA88552B06DFD100F09268 /* air_jordan_1_retro_high_tie_dye.usdz */,
 				8B7D4E3F2221CA4F00E0E448 /* LaunchScreen.storyboard */,
 				8B7D4E422221CA4F00E0E448 /* Info.plist */,
 			);
@@ -129,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7D4E412221CA4F00E0E448 /* LaunchScreen.storyboard in Resources */,
+				ABCA88562B06DFD100F09268 /* air_jordan_1_retro_high_tie_dye.usdz in Resources */,
+				ABCA88582B06DFF700F09268 /* _notes.txt in Resources */,
 				8B7D4E3E2221CA4F00E0E448 /* Assets.xcassets in Resources */,
 				8B7D4E3C2221CA4800E0E448 /* Main.storyboard in Resources */,
 			);
