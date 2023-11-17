@@ -1,7 +1,5 @@
 # iOS 3D Model Viewer
 
-![](preview.gif)
-
 - Current repo:
 
   - https://github.com/jht9629-nyu/iOS3DModelViewer.git
@@ -14,3 +12,5 @@
 
 - Original
   - https://github.com/miftahulbagusp/iOS3DModelViewer
+
+![](preview.gif)
