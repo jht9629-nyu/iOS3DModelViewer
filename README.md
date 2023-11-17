@@ -2,9 +2,11 @@
 
 ![](preview.gif)
 
-- Current:
+- Current repo:
 
   - https://github.com/jht9629-nyu/iOS3DModelViewer.git
+  - branch: jht-swiftui
+  - SwiftUI XCode project: D3ModelViewer.xcodeproj
 
 - Modifed for SwiftUI based:
 

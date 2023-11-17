@@ -12,6 +12,9 @@ struct D3ModelViewerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear() {
+                    print("D3ModelViewerApp ContentView")
+                }
         }
     }
 }

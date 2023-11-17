@@ -19,4 +19,3 @@ Info.plist configuration "(no name)" for UIWindowSceneSessionRoleApplication con
 
 D3ModelViewer
 
-

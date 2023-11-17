@@ -25,8 +25,10 @@ struct BridgeView: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> some UIViewController {
         print("BridgeView makeUIViewController")
         
-        let storyBoard: UIStoryboard = UIStoryboard(name:"Main", bundle:nil);
-        let viewCtl = storyBoard.instantiateViewController(withIdentifier: "main") as! ViewController;
+//        let storyBoard: UIStoryboard = UIStoryboard(name:"Main", bundle:nil);
+//        let viewCtl = storyBoard.instantiateViewController(withIdentifier: "main") as! ViewController;
+        
+        let viewCtl = ViewController();
         
         print("BridgeView viewCtl", viewCtl)
 

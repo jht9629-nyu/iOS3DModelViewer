@@ -44,6 +44,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, SCNSceneRen
     var positionY: Float = 0.0
     
     override func viewDidLoad() {
+        print("ViewController viewDidLoad")
         super.viewDidLoad()
         show3DModel(name: "air_jordan_1_retro_high_tie_dye.usdz")
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(self.panGestureRecognized(gesture:)) )
